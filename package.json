@@ -7,8 +7,7 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "create:migrate": "knex migrate:make",
-    "create:db": "knex migrate:latest",
-    "heroku-postbuild": "npx knex migrate:latest"
+    "create:db": "knex migrate:latest"
     
   },
   "keywords": [],
